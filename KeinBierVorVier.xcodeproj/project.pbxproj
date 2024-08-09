@@ -14,6 +14,7 @@
 		1DE511B22C660B9F00351267 /* KeinBierVorVierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE511B12C660B9F00351267 /* KeinBierVorVierTests.swift */; };
 		1DE511BC2C660B9F00351267 /* KeinBierVorVierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE511BB2C660B9F00351267 /* KeinBierVorVierUITests.swift */; };
 		1DE511BE2C660B9F00351267 /* KeinBierVorVierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE511BD2C660B9F00351267 /* KeinBierVorVierUITestsLaunchTests.swift */; };
+		1DE511CB2C660D4E00351267 /* ContenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE511CA2C660D4E00351267 /* ContenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1DE511B72C660B9F00351267 /* KeinBierVorVierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeinBierVorVierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE511BB2C660B9F00351267 /* KeinBierVorVierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeinBierVorVierUITests.swift; sourceTree = "<group>"; };
 		1DE511BD2C660B9F00351267 /* KeinBierVorVierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeinBierVorVierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DE511CA2C660D4E00351267 /* ContenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				1DE511A02C660B9D00351267 /* KeinBierVorVierApp.swift */,
 				1DE511A22C660B9D00351267 /* ContentView.swift */,
+				1DE511CA2C660D4E00351267 /* ContenViewModel.swift */,
 				1DE511A42C660B9E00351267 /* Assets.xcassets */,
 				1DE511A62C660B9E00351267 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE511CB2C660D4E00351267 /* ContenViewModel.swift in Sources */,
 				1DE511A32C660B9D00351267 /* ContentView.swift in Sources */,
 				1DE511A12C660B9D00351267 /* KeinBierVorVierApp.swift in Sources */,
 			);
